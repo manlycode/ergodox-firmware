@@ -29,7 +29,7 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 _backslash,     _Q,         _W,      _E,      _R,    _T,    1,
       _tab,     _A,         _S,      _D,      _F,    _G,
    _shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
-     _guiL, _grave, _backslash, _arrowL, _arrowR,
+      _grave, _backslash, _arrowL, _arrowR, _guiL,
                                                  _ctrlL, _altL,
                                               0,      0, _home,
                                             _bs,   _del,  _end,
@@ -38,7 +38,7 @@ _backslash,     _Q,         _W,      _E,      _R,    _T,    1,
 _bracketL, _Y,      _U,      _I,      _O,         _P, _bracketR,
            _H,      _J,      _K,      _L, _semicolon,    _quote,
         1, _N,      _M,  _comma, _period,     _slash,   _shiftR,
-               _arrowL, _arrowD, _arrowU,    _arrowR,     _guiR,
+                _guiR, _arrowL, _arrowD, _arrowU,    _arrowR,    
  _altR, _ctrlR,
 _pageU,      0,      0,
 _pageD, _enter, _space ),
@@ -367,4 +367,3 @@ NULL,
  lpush7,  lpop7,   NULL,   NULL,   NULL,   NULL,   NULL,   NULL )
 
 };
-
