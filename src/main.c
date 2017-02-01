@@ -124,8 +124,8 @@ int main(void) {
 		// update LEDs
 		if (layers_head != 0) { kb_led_num_on();  kb_led_caps_on(); }
 		else { kb_led_num_off(); kb_led_caps_off(); }
-		if (keyboard_leds & (1<<1)) { kb_led_caps_on(); }
-		else { kb_led_caps_off(); }
+		// if (keyboard_leds & (1<<1)) { kb_led_caps_on(); }
+		// else { kb_led_caps_off(); }
 		if (keyboard_leds & (1<<2)) { kb_led_scroll_on(); }
 		else { kb_led_scroll_off(); }
 		if (keyboard_leds & (1<<3)) { kb_led_compose_on(); }
