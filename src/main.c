@@ -122,8 +122,8 @@ int main(void) {
 		_delay_ms(MAKEFILE_DEBOUNCE_TIME);
 
 		// update LEDs
-		if (layers_head != 0) { kb_led_num_on(); }
-		else { kb_led_num_off(); }
+		if (layers_head != 0) { kb_led_num_on();  kb_led_caps_on(); }
+		else { kb_led_num_off(); kb_led_caps_off(); }
 		if (keyboard_leds & (1<<1)) { kb_led_caps_on(); }
 		else { kb_led_caps_off(); }
 		if (keyboard_leds & (1<<2)) { kb_led_scroll_on(); }
